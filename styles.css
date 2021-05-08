@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,6 +16,7 @@ body{
 
 header{
     /* border: 2px solid red; */
+    font-family: 'Krona One', sans-serif;
     height: 8vh;
     display: flex;
     align-items: center;
@@ -35,6 +40,7 @@ header{
 }
 
 .todoinput{
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     font-size: 1.9rem;
     width: 40rem;
@@ -72,6 +78,7 @@ header{
 }
 
 .todoli{
+    font-family: 'Itim', cursive;
     flex-grow: 1;
     font-size: 1.5rem;
     width: 20rem;
